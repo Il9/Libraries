@@ -1,6 +1,6 @@
 {
   "name": "@il9/eslint-config-base",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint config - Base",
   "main": "index.js",
   "license": "MIT",
@@ -27,5 +27,8 @@
     "eslint": "^7.28.0",
     "prettier": "^2.3.1",
     "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "eslint": "^7.28.0"
   }
 }
