@@ -17,10 +17,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@il9/eslint-config-base@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@il9/eslint-config-base/-/eslint-config-base-1.0.4.tgz#b31cc723116592206177b88c96f3b52f5ba25c97"
-  integrity sha512-/8RB4NecmlwL//QVIWQhXfhIrLkxuacnW0UPWwnRyu19VWAZ7B0dGuQzJDNLZ7s34Ch3IdjKBW1LgBvh7Ofz6g==
+"@il9/eslint-config-base@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@il9/eslint-config-base/-/eslint-config-base-1.0.6.tgz#556354d9e14abb7595ad7f3f6649dbee8dd4992b"
+  integrity sha512-TEpijiPbuxIIOJvgEOeaslFK8eeNTpwAK6rOBeUXFSVIJLyXL0k8PqSnFSbzOwohSMA07pavKfsSRa+qxwey2g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.26.0"
     "@typescript-eslint/parser" "^4.26.0"
@@ -704,7 +704,7 @@ lodash@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-loose-envify@^1.4.0:
+loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -919,6 +919,14 @@ react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react@^17.0.2:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
+  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 read-pkg-up@^3.0.0:
   version "3.0.0"
