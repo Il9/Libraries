@@ -16,6 +16,11 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended"
   ],
+  settings: {
+    "import/resolver": {
+      typescript: {}
+    }
+  },
   rules: {
     "prettier/prettier": [
       "error",
