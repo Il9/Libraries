@@ -1,6 +1,6 @@
 {
   "name": "@il9/eslint-config-react",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Eslint config react with base",
   "main": "lib/index.js",
   "license": "MIT",
