@@ -5,18 +5,14 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:prettier/recommended"
   ],
-  settings: {
-    "import/resolver": {
-      typescript: {}
-    }
-  },
   rules: {
+    // Prettier
     "prettier/prettier": [
       "error",
       {
@@ -25,6 +21,23 @@ module.exports = {
         quoteProps: "consistent",
         arrowParens: "avoid"
       }
-    ]
+    ],
+
+    // Import
+    "import/first": "error",
+    "import/exports-last": "error",
+    "import/no-duplicates": "error",
+    "import/order": [
+      "error",
+      {
+        groups: [
+          ["builtin", "external"],
+          "internal",
+          ["parent", "sibling", "index"]
+        ],
+        "newlines-between": "always"
+      }
+    ],
+    "import/newline-after-import": "error"
   }
 };
