@@ -1,6 +1,6 @@
 {
   "name": "@il9/eslint-config-base",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Eslint config base",
   "main": "index.js",
   "license": "MIT",
