@@ -16,17 +16,6 @@ module.exports = {
     }
   },
   rules: {
-    // Prettier
-    "prettier/prettier": [
-      "error",
-      {
-        printWidth: 120,
-        singleQuote: true,
-        quoteProps: "consistent",
-        arrowParens: "avoid"
-      }
-    ],
-
     // Import
     "import/first": "error",
     "import/exports-last": "error",
@@ -42,6 +31,20 @@ module.exports = {
         "newlines-between": "always"
       }
     ],
-    "import/newline-after-import": "error"
+    "import/newline-after-import": "error",
+
+    // Prettier
+    "prettier/prettier": [
+      "error",
+      {
+        printWidth: 120,
+        singleQuote: true,
+        quoteProps: "consistent",
+        arrowParens: "avoid"
+      }
+    ],
+
+    // Typescript
+    "@typescript-eslint/explicit-module-boundary-types": 'off'
   }
 };
